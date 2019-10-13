@@ -7,9 +7,9 @@ some online classes.
 
 The inspiration for the idea behind this small project was [this video from 3Blue1Brown](https://www.youtube.com/watch?v=EK32jo7i5LQ).
 
-It uses the [Coffee Engine](https://github.com/hecrj/coffee) to get some sort of performance out of trying to draw millions of
-points and with some very naïve culling it actually manages to work with one hundred million points on my PC (i7 7700k @ 5Ghz
-and RTX 2080).
+It uses the [Coffee Engine](https://github.com/hecrj/coffee) and Vulkan to get some sort of performance out of trying to draw
+millions of points and with some very naïve culling it actually manages to work with one hundred million points on my PC
+(i7 7700k @ 5Ghz and RTX 2080) with very cinematic 15 FPS.
 
 ## Usage
 
@@ -25,3 +25,13 @@ $ ./polar-oxides 10000000 # will generate 10 million points
 * **S**: Zoom Out
 * **F**: Toggle Fullscreen
 * **D**: Toggle drawing of non-primes
+
+## Download
+
+Download it from the [releases section](https://github.com/BeowulfBjornson/polar-oxides/releases/tag/v0.0.1) here in Github.
+
+## Screenshots
+
+![Imgur](https://i.imgur.com/RUAohFw.png)
+![Imgur](https://i.imgur.com/IldPt1i.png)
+![Imgur](https://i.imgur.com/PgVRdcz.png)
