@@ -56,7 +56,7 @@ struct PolarOxides  {
 }
 
 impl PolarOxides  {
-    const DEFAULT_MAX_NUMBER: u64 = 1_000_000;
+    const DEFAULT_MAX_NUMBER: u64 = 50_000;
     const BASE_PIXEL_RATE: f32 = 10.0;
     const MAX_ZOOM_LEVEL: i32 = 1000;
 
